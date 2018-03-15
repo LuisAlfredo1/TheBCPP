@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "861356949854",
+    "firebase_url": "https://thebcp-5f60d.firebaseio.com",
+    "project_id": "thebcp-5f60d",
+    "storage_bucket": "thebcp-5f60d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861356949854:android:7b0a417fc223f2bb",
+        "android_client_info": {
+          "package_name": "com.example.luis.thebcp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861356949854-t8ri94c4fipgqh917p188jtrot99mokd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.luis.thebcp",
+            "certificate_hash": "bb8364830ed9108cc8c42feca88f3b1f8c852812"
+          }
+        },
+        {
+          "client_id": "861356949854-i6uluet1v6v523a8gn95ecmf7jhja11l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV_HitPHF2Dm9BO32M4utg_EIXAVwAtk8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861356949854-i6uluet1v6v523a8gn95ecmf7jhja11l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

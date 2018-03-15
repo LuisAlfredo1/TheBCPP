@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.luis.thebcp.MainActivity">
+    <include
+        android:id="@+id/main_page_toolbar"
+        layout="@layout/app_bar_layout"
+        style="MyTheme.ActionBar.TitleTextStyle"/>
+
+    <TextView
+        android:id="@+id/tv_title_main_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How can we help you?"
+        android:layout_above="@+id/ll_main_activity"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:textColor="#f1ea1b"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/ll_main_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_centerVertical="true">
+
+        <Button
+            android:id="@+id/bt_main_news"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#ffffff"
+            android:text="News"
+            android:textColor="#f44100"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c1c1c1"/>
+        <Button
+            android:id="@+id/bt_main_prices"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#ffffff"
+            android:text="Prices"
+            android:textColor="#f44100"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c1c1c1"/>
+        <Button
+            android:id="@+id/bt_main_predictions"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#ffffff"
+            android:text="Predictions"
+            android:textColor="#f44100"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c1c1c1"/>
+        <Button
+            android:id="@+id/bt_main_learn_about"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#ffffff"
+            android:text="Learn About..."
+            android:textColor="#f44100"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#c1c1c1"/>
+        <Button
+            android:id="@+id/bt_main_comments"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#ffffff"
+            android:text="Comments"
+            android:textColor="#f44100"/>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
